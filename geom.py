@@ -21,11 +21,10 @@ def hide_number(progression):
 
 
 def play_game():
-    print("Welcome to the Brain Games!")
 
+    print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
-    
     print("\nWhat number is missing in the progression?")
 
     for _ in range(3):
